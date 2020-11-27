@@ -1,7 +1,6 @@
 package stix21
 
 import (
-	"fmt"
 	"github.com/google/uuid"
 	"strings"
 	"time"
@@ -112,10 +111,8 @@ type OpenVocab string
 
 type Identifier uuid.UUID
 
-func getUUID() {
+func MakeIdentifier(object string) (identifier string){
     uuidWithHyphen := uuid.New()
-    fmt.Println(uuidWithHyphen)
-    uuid := strings.Replace(uuidWithHyphen.String(), "-", "", -1)
-    fmt.Println(uuid)
+    return object + "-" + strings.Replace(uuidWithHyphen.String(), "-", "", -1)
 }
 
