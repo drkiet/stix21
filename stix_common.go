@@ -115,7 +115,7 @@ func MakeIdentifier(object string) (identifier string){
 }
 
 // enum
-const AES_256_GCM = "AES_256_GCM"
+const AES_256_GCM = "AES-256-GCM"
 const CHACHA20_POLY1305 = "ChaCha20-Poly1305"
 const MIME_TYPE_INDCATED = "mime-type-indicated"
 
