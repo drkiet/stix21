@@ -22,17 +22,18 @@ type Artifact struct {
 	DecryptionAlgorithm string `json:"decryption_key,omitempty"`
 }
 
-func printArtifact(artifact Artifact) {
-	fmt.Println("Artifact:\n", marshalArtifact(artifact))
+//PrintArtifact
+func PrintArtifact(artifact Artifact) {
+	fmt.Println("Artifact:\n", MarshalArtifact(artifact))
 }
 
-func marshalArtifact(artifact Artifact) (jsonData string){
+func MarshalArtifact(artifact Artifact) (jsonData string){
 	data, e := json.MarshalIndent(artifact, "", "  ")
 	check(e)
 	return string(data)
 }
 
-func unmarshalArtifact(obj json.RawMessage) (artifact Artifact) {
+func MnmarshalArtifact(obj json.RawMessage) (artifact Artifact) {
 	json.Unmarshal(obj, &artifact)
 	return artifact
 }

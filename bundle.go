@@ -100,8 +100,8 @@ func unmarshal(data []byte) (bundle Bundle) {
 
 		// SCO
 		case ArtifactType:
-			artifact := unmarshalArtifact(obj)
-			printArtifact(artifact)
+			artifact := MnmarshalArtifact(obj)
+			PrintArtifact(artifact)
 		case AutonomousSystemType:
 			as := unmarshalAutonomousSystem(obj)
 			printAutonomousSystem(as)
