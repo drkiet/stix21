@@ -33,7 +33,7 @@ func MarshalArtifact(artifact Artifact) (jsonData string){
 	return string(data)
 }
 
-func MnmarshalArtifact(obj json.RawMessage) (artifact Artifact) {
+func UnmarshalArtifact(obj json.RawMessage) (artifact Artifact) {
 	json.Unmarshal(obj, &artifact)
 	return artifact
 }

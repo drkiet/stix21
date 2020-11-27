@@ -2,7 +2,6 @@ package stix21
 
 import (
 	"github.com/google/uuid"
-	"strings"
 	"time"
 )
 
@@ -112,7 +111,6 @@ type OpenVocab string
 type Identifier uuid.UUID
 
 func MakeIdentifier(object string) (identifier string){
-    uuidWithHyphen := uuid.New()
-    return object + "-" + strings.Replace(uuidWithHyphen.String(), "-", "", -1)
+    return object + "-" + uuid.New().String()
 }
 
