@@ -118,4 +118,5 @@ func MakeIdentifier(object string) (identifier string){
 const AES_256_GCM = "AES-256-GCM"
 const CHACHA20_POLY1305 = "ChaCha20-Poly1305"
 const MIME_TYPE_INDCATED = "mime-type-indicated"
+const TESTING_GO_GET = "testing-go-get"
 
