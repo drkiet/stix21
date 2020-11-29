@@ -52,6 +52,14 @@
       "decryption_key": "My voice is my passport"
     },
     {
+      "type": "artifact",
+      "spec_version": "2.1",
+      "id": "artifact--dacb41d9-682b-486a-a476-155ca475340f",
+      "mime_type": "application/zip",
+      "encryption_algorithm": "AES-256-GCM",
+      "decryption_key": "decryption key value"
+    },
+    {
       "type": "autonomous-system",
       "spec_version": "2.1",
       "id": "autonomous-system--f720c34b-98ae-597f-ade5-27dc241e8c74",

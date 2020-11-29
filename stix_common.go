@@ -106,9 +106,7 @@ type KillChainPhase struct {
 
 // New type
 
-type OpenVocab string
 
-type Identifier string
 
 func MakeIdentifier(object string) (identifier string){
     return object + "--" + uuid.New().String()
@@ -118,5 +116,5 @@ func MakeIdentifier(object string) (identifier string){
 const AES_256_GCM = "AES-256-GCM"
 const CHACHA20_POLY1305 = "ChaCha20-Poly1305"
 const MIME_TYPE_INDCATED = "mime-type-indicated"
-const GO_GET_IT = "testing-go-get"
+
 
