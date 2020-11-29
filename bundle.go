@@ -17,13 +17,13 @@ func init() {
 	fmt.Println("initializing ...")
 }
 
-func marshalBundle(bundle Bundle) (jsonData string){
+func MarshalBundle(bundle Bundle) (jsonData string){
 	data, e := json.MarshalIndent(bundle, "", "  ")
 	check(e)
 	return string(data)
 }
 
-func unmarshal(data []byte) (bundle Bundle) {
+func Unmarshal(data []byte) (bundle Bundle) {
 	bundle = Bundle{}
 	e := json.Unmarshal(data, &bundle)
 	fmt.Printf("e: %v\n", e)
