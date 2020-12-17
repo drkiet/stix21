@@ -1,0 +1,10 @@
+{
+  "type": "artifact",
+  "spec_version": "2.1",
+  "id": "artifact--3284f6c5-3023-4800-90e1-5831d4b75119",
+  "mime_type": "application/zip",
+  "payload_bin": "ZX7HIBWPQA99NSUhEUgAAADI== ...",
+  "encryption_algorithm": "mime-type-indicated",
+  "decryption_key": "My voice is my passport"
+}
+

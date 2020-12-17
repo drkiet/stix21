@@ -3,6 +3,7 @@ package stix21
 import (
 	"encoding/json"
 	"fmt"
+	"strings"
 )
 
 type Artifact struct {
@@ -22,6 +23,11 @@ type Artifact struct {
 	DecryptionAlgorithm string `json:"decryption_key,omitempty"`
 }
 
+func (artifact Artifact) isValid() bool {
+	return strings.Compare(artifact.Type, ArtifactType) == 0 &&
+		strings.Contains(artifact.ID, ArtifactType)
+}
+
 //PrintArtifact
 func PrintArtifact(artifact Artifact) {
 	fmt.Println("Artifact:\n", MarshalArtifact(artifact))
@@ -37,3 +43,4 @@ func UnmarshalArtifact(obj json.RawMessage) (artifact Artifact) {
 	json.Unmarshal(obj, &artifact)
 	return artifact
 }
+

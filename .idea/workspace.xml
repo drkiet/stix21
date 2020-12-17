@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec024c2f-315b-4afb-81b0-ca9916f5fa1c" name="Default Changelist" comment="" />
+    <list default="true" id="ec024c2f-315b-4afb-81b0-ca9916f5fa1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/artifact_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/attack_patterns/spear_phishing.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_data_types.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_data_types.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +20,9 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/lib/go-1.13" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -30,9 +38,9 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../taxii21" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestUnmarshalArtifact in github.com/drkiet/stix21">
     <configuration name="go observed-data-all-scos" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="stix21" />
       <working_directory value="$PROJECT_DIR$" />
@@ -45,10 +53,37 @@
       <output_directory value="$PROJECT_DIR$/../../bin" />
       <method v="2" />
     </configuration>
+    <configuration name="TestUnmarshalArtifact in github.com/drkiet/stix21" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="stix21" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/drkiet/stix21" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestUnmarshalArtifact\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestUnmarshalArtifact in github.com/drkiet/stix21" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -58,9 +93,10 @@
       <screen x="72" y="27" width="1528" height="768" />
     </state>
     <state x="294" y="69" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1528.768@72.27.1528.768" timestamp="1606580613591" />
-    <state x="619" y="182" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606580594708">
-      <screen x="72" y="27" width="1528" height="768" />
+    <state x="963" y="218" width="424" height="491" key="FileChooserDialogImpl" timestamp="1607167097017">
+      <screen x="72" y="27" width="2488" height="948" />
     </state>
     <state x="619" y="182" width="424" height="491" key="FileChooserDialogImpl/72.27.1528.768@72.27.1528.768" timestamp="1606580594708" />
+    <state x="963" y="218" key="FileChooserDialogImpl/72.27.2488.948@72.27.2488.948" timestamp="1607167097017" />
   </component>
 </project>
